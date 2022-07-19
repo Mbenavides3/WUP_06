@@ -174,3 +174,10 @@ fisherXY(mydata$cappun,mydata$race)
 # Discussion and Conclusion
 
 <!--Discussion and conclusion here.  If you found a relationship be sure to consider whether the relationship occurs because one of the variavbles causes the other, or whether they perhasps are related for some other reason.  Watch the chapter 6 videos from the GeorgeTown videos collection.!-->
+
+In this dataset, we have ten columns (variables) so that leads to having less rows when applying the omit na code.
+In the graphical analysis, we didn't see a difference in the percentage graph between the white population and other population, whereas in the mast branch,(where we has more rows from having less variables), there was a difference between the white and other population in the percentage graph.
+Moving to the numerical analysis, the white population was favoring almost as much the other population, the others favoring a little bit more, but in the master branch, the white was favoring more than others. 
+When in came down to run the fisher test, when comparing white and the others in the number 2 branch, there wasn't a difference (p-value=1) signifying that race does affect results, while in the master branch there was a difference between white and others (p-value less than 0.05), which proved that race does affect the results.
+In conclusion, having a smaller data set shows less difference. 
+
