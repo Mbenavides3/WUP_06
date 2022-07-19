@@ -169,6 +169,7 @@ fisherXY = function(x, y, confL = 0, printAll=FALSE){
 fisherXY(mydata$cappun,mydata$race)
 ```
  
+ The p value for comparing white and black is lower than 0.05 and the same thing for comparing black and others, which signifies that there is a difference in both cases. But when it down to comparing white and others, the p value was 1 so there is no difference between them(and that was seen with the percentage graph earlier).
 
 # Discussion and Conclusion
 
